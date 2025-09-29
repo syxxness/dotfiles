@@ -14,7 +14,7 @@ export EDITOR="nvim"
 export VISUAL="$EDITOR"
 
 # aliases
-alias ls='ls --color=auto'
+alias ls='eza'
 
 #nvim settings
 alias vim='nvim'
