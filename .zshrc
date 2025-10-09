@@ -5,6 +5,9 @@ SAVEHIST=1000
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/sfrailey/.zshrc'
+
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
@@ -14,7 +17,8 @@ export EDITOR="nvim"
 export VISUAL="$EDITOR"
 
 # aliases
-alias ls='eza'
+alias ls='eza -l --group-directories-first'
+alias top='btop'
 
 #nvim settings
 alias vim='nvim'
